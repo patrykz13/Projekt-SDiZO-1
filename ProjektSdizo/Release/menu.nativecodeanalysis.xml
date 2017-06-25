@@ -1,0 +1,1241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+      <FILENAME>menu.cpp</FILENAME>
+      <LINE>142</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'val'.</DESCRIPTION>
+    <FUNCTION>menu_array</FUNCTION>
+    <DECORATED>?menu_array@@YAXXZ</DECORATED>
+    <FUNCLINE>91</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>93</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>94</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>95</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>95</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>95</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>96</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>97</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'val' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\microsoft visual studio 14.0\vc\include\</FILEPATH>
+        <FILENAME>random</FILENAME>
+        <LINE>6409</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>98</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>99</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>100</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>101</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>102</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>104</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>109</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Assume switch ( 'opt' ) resolves to case 1: </MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1514</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>109</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Assume switch ( 'opt' ) resolves to case 1: </MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1514</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>109</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Assume switch ( 'opt' ) resolves to case 5: </MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>136</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>136</LINE>
+        <COLUMN>47</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>142</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'val' is an In/Out argument to 'Array::addAtTheBeginning' (declared at c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\array.h:15)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>142</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'val' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+      <FILENAME>menu.cpp</FILENAME>
+      <LINE>1569</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'val'.</DESCRIPTION>
+    <FUNCTION>menu_list</FUNCTION>
+    <DECORATED>?menu_list@@YAXXZ</DECORATED>
+    <FUNCLINE>1519</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1521</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1522</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1523</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1523</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1523</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1524</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1525</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'val' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\microsoft visual studio 14.0\vc\include\</FILEPATH>
+        <FILENAME>random</FILENAME>
+        <LINE>6409</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1526</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1527</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1528</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1529</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1530</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1532</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1534</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1534</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1535</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1537</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1538</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Assume switch ( 'opt' ) resolves to case 1: </MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1539</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1539</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1539</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2325</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1534</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1534</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1535</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1537</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1538</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Assume switch ( 'opt' ) resolves to case 1: </MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1539</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1539</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1539</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2325</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1534</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1534</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1535</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1537</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1538</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Assume switch ( 'opt' ) resolves to case 5: </MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1564</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1564</LINE>
+        <COLUMN>47</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1569</LINE>
+        <COLUMN>25</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'val' is an In/Out argument to 'DoublyLinkedList::addAtTheBeginning' (declared at c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\doublylinkedlist.h:19)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>1569</LINE>
+        <COLUMN>25</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'val' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+      <FILENAME>menu.cpp</FILENAME>
+      <LINE>2352</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'val'.</DESCRIPTION>
+    <FUNCTION>menu_heap</FUNCTION>
+    <DECORATED>?menu_heap@@YAXXZ</DECORATED>
+    <FUNCLINE>2328</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2330</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2330</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2330</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2331</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2332</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2333</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'val' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\microsoft visual studio 14.0\vc\include\</FILEPATH>
+        <FILENAME>random</FILENAME>
+        <LINE>6409</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2334</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2335</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2336</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2337</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2339</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2339</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2340</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2341</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2342</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Assume switch ( 'opt' ) resolves to case 1: </MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2343</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2343</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2343</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3079</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2339</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2339</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2340</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2341</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2342</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Assume switch ( 'opt' ) resolves to case 1: </MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2343</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2343</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2343</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3079</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2339</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2339</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2340</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2341</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2342</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Assume switch ( 'opt' ) resolves to case 3: </MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2347</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2347</LINE>
+        <COLUMN>46</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2352</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'val' is an In/Out argument to 'Heap::addValue' (declared at c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\heap.h:14)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>2352</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'val' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+      <FILENAME>menu.cpp</FILENAME>
+      <LINE>3110</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'val'.</DESCRIPTION>
+    <FUNCTION>menu_BSTree</FUNCTION>
+    <DECORATED>?menu_BSTree@@YAXXZ</DECORATED>
+    <FUNCLINE>3082</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3084</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3084</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3084</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3085</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3086</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'val' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\microsoft visual studio 14.0\vc\include\</FILEPATH>
+        <FILENAME>random</FILENAME>
+        <LINE>6409</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3087</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3088</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3089</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3090</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3091</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3093</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3094</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3094</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3095</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3095</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3096</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3097</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3099</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3099</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3100</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3101</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3102</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Assume switch ( 'opt' ) resolves to case 1: </MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3103</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3103</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3103</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3891</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3099</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3099</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3100</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3101</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3102</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Assume switch ( 'opt' ) resolves to case 1: </MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3103</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3103</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3103</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3891</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3099</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3099</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3100</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3101</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3102</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Assume switch ( 'opt' ) resolves to case 2: </MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3105</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3105</LINE>
+        <COLUMN>64</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3110</LINE>
+        <COLUMN>27</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'val' is an In/Out argument to 'BinarySearchTree::deleteValue' (declared at c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\binarysearchtree.h:36)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>menu.cpp</FILENAME>
+        <LINE>3110</LINE>
+        <COLUMN>27</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'val' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

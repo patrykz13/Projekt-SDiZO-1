@@ -1,0 +1,14 @@
+﻿  Menu.cpp
+Menu.cpp(2372): warning C4309: '=': truncation of constant value
+Menu.cpp(2373): warning C4309: '=': truncation of constant value
+Menu.cpp(2374): warning C4309: '=': truncation of constant value
+Menu.cpp(3147): warning C4309: '=': truncation of constant value
+Menu.cpp(3148): warning C4309: '=': truncation of constant value
+Menu.cpp(3149): warning C4309: '=': truncation of constant value
+  Generating code
+  2 of 319 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    27 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  ProjektSdizo.vcxproj -> C:\Users\Patryk\documents\visual studio 2015\Projects\ProjektSdizo\Release\ProjektSdizo.exe
+  ProjektSdizo.vcxproj -> C:\Users\Patryk\documents\visual studio 2015\Projects\ProjektSdizo\Release\ProjektSdizo.pdb (Full PDB)

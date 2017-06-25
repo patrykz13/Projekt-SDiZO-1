@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+      <FILENAME>heap.cpp</FILENAME>
+      <LINE>109</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'i' hides declaration of the same name in outer scope. For additional information, see previous declaration at line '87' of 'c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\heap.cpp'.</DESCRIPTION>
+    <FUNCTION>Heap::deleteFromTheBotton</FUNCTION>
+    <DECORATED>?deleteFromTheBotton@Heap@@QAEXXZ</DECORATED>
+    <FUNCLINE>85</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>heap.cpp</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

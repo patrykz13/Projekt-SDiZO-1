@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+      <FILENAME>array.cpp</FILENAME>
+      <LINE>78</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory '*tmp'.</DESCRIPTION>
+    <FUNCTION>Array::addToRandomPlace</FUNCTION>
+    <DECORATED>?addToRandomPlace@Array@@QAEXHH@Z</DECORATED>
+    <FUNCLINE>68</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>array.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>array.cpp</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'*tmp' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>array.cpp</FILENAME>
+        <LINE>72</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>array.cpp</FILENAME>
+        <LINE>72</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'i&lt;size-1' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>array.cpp</FILENAME>
+        <LINE>76</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>array.cpp</FILENAME>
+        <LINE>76</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&gt;=randomPlace')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>array.cpp</FILENAME>
+        <LINE>78</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'*tmp' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+      <FILENAME>array.cpp</FILENAME>
+      <LINE>78</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory '*tmp'.</DESCRIPTION>
+    <FUNCTION>Array::addToRandomPlace</FUNCTION>
+    <DECORATED>?addToRandomPlace@Array@@QAEXHH@Z</DECORATED>
+    <FUNCLINE>68</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>array.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>array.cpp</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'*tmp' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>array.cpp</FILENAME>
+        <LINE>72</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>array.cpp</FILENAME>
+        <LINE>72</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'i&lt;size-1' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>array.cpp</FILENAME>
+        <LINE>76</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>array.cpp</FILENAME>
+        <LINE>76</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&gt;=randomPlace')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>array.cpp</FILENAME>
+        <LINE>78</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'*tmp' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+      <FILENAME>array.cpp</FILENAME>
+      <LINE>78</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory '*tmp'.</DESCRIPTION>
+    <FUNCTION>Array::addToRandomPlace</FUNCTION>
+    <DECORATED>?addToRandomPlace@Array@@QAEXHH@Z</DECORATED>
+    <FUNCLINE>68</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>array.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>array.cpp</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'*tmp' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>array.cpp</FILENAME>
+        <LINE>72</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>array.cpp</FILENAME>
+        <LINE>72</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'i&lt;size-1' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>array.cpp</FILENAME>
+        <LINE>76</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>array.cpp</FILENAME>
+        <LINE>76</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&gt;=randomPlace')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>array.cpp</FILENAME>
+        <LINE>78</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'*tmp' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

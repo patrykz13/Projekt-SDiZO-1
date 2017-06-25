@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+      <FILENAME>doublylinkedlist.cpp</FILENAME>
+      <LINE>112</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'element'. </DESCRIPTION>
+    <FUNCTION>DoublyLinkedList::addToRandomPlace</FUNCTION>
+    <DECORATED>?addToRandomPlace@DoublyLinkedList@@QAEXHH@Z</DECORATED>
+    <FUNCLINE>79</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>doublylinkedlist.cpp</FILENAME>
+        <LINE>81</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>doublylinkedlist.cpp</FILENAME>
+        <LINE>82</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>doublylinkedlist.cpp</FILENAME>
+        <LINE>95</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>doublylinkedlist.cpp</FILENAME>
+        <LINE>96</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>doublylinkedlist.cpp</FILENAME>
+        <LINE>97</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>doublylinkedlist.cpp</FILENAME>
+        <LINE>99</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>doublylinkedlist.cpp</FILENAME>
+        <LINE>100</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>doublylinkedlist.cpp</FILENAME>
+        <LINE>101</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>doublylinkedlist.cpp</FILENAME>
+        <LINE>97</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'element' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>doublylinkedlist.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'element==tail' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>doublylinkedlist.cpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'element==head' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>doublylinkedlist.cpp</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>doublylinkedlist.cpp</FILENAME>
+        <LINE>111</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>doublylinkedlist.cpp</FILENAME>
+        <LINE>112</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'element' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+      <FILENAME>doublylinkedlist.cpp</FILENAME>
+      <LINE>150</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'element'. </DESCRIPTION>
+    <FUNCTION>DoublyLinkedList::deleteFromRandomPlace</FUNCTION>
+    <DECORATED>?deleteFromRandomPlace@DoublyLinkedList@@QAEXH@Z</DECORATED>
+    <FUNCLINE>122</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>doublylinkedlist.cpp</FILENAME>
+        <LINE>124</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>doublylinkedlist.cpp</FILENAME>
+        <LINE>125</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>doublylinkedlist.cpp</FILENAME>
+        <LINE>127</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>doublylinkedlist.cpp</FILENAME>
+        <LINE>140</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>doublylinkedlist.cpp</FILENAME>
+        <LINE>141</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>doublylinkedlist.cpp</FILENAME>
+        <LINE>142</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'element' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>doublylinkedlist.cpp</FILENAME>
+        <LINE>149</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>doublylinkedlist.cpp</FILENAME>
+        <LINE>150</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'element' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

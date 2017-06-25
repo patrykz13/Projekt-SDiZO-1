@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+      <FILENAME>binarysearchtree.cpp</FILENAME>
+      <LINE>195</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'nodeB'. See line 190 for an earlier location where this can occur</DESCRIPTION>
+    <FUNCTION>BinarySearchTree::deleteNode</FUNCTION>
+    <DECORATED>?deleteNode@BinarySearchTree@@QAEPAUNode@@PAU2@@Z</DECORATED>
+    <FUNCLINE>182</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>binarysearchtree.cpp</FILENAME>
+        <LINE>184</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>binarysearchtree.cpp</FILENAME>
+        <LINE>184</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>binarysearchtree.cpp</FILENAME>
+        <LINE>186</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'node')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>binarysearchtree.cpp</FILENAME>
+        <LINE>189</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>binarysearchtree.cpp</FILENAME>
+        <LINE>190</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>binarysearchtree.cpp</FILENAME>
+        <LINE>191</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>binarysearchtree.cpp</FILENAME>
+        <LINE>192</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>binarysearchtree.cpp</FILENAME>
+        <LINE>193</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>binarysearchtree.cpp</FILENAME>
+        <LINE>194</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>binarysearchtree.cpp</FILENAME>
+        <LINE>195</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'nodeB!=node')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\patryk\documents\visual studio 2015\projects\projektsdizo\projektsdizo\</FILEPATH>
+        <FILENAME>binarysearchtree.cpp</FILENAME>
+        <LINE>195</LINE>
+        <COLUMN>32</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'nodeB' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>
